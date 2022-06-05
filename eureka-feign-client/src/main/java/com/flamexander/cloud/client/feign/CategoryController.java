@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CategoryController {
     private CategoryClient categoryClient;
 
+
     @Autowired
     public void setCategoryClient(CategoryClient categoryClient) {
         this.categoryClient = categoryClient;

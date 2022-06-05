@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
+
 //geek-spring-cloud-eureka-feign-client
 @FeignClient("geek-spring-cloud-summer-market")
 public interface CategoryClient {
